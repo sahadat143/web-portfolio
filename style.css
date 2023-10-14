@@ -1,0 +1,119 @@
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+h1{
+
+    font-style:normal;
+    font-size: 50px;
+}
+#id1{
+    color: blue;
+}
+#id2{
+    color: orangered;
+
+}
+#id2:hover{
+    color: darkslategray;
+}
+#id1:hover{
+    color: chocolate;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    border-radius: 100px;
+    
+
+}
+.top-banner{
+    background-image: url("file:///F:/Web%20Devolopment%20project/projects/web-protfolio/images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 350px;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, rgb(71, 102, 255));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(0, 0, 255);
+    font-weight: 700;
+}
+.h1{
+    width: 760px;
+    margin-left: 6%;
+    border-radius: 30px;
+    height: 50%;
+}
+.h1:hover{
+    color: blue;
+    background-color: orange;
+}
+
+.half-width1{
+    margin-left: 60%;
+    padding-bottom: 350px;
+    
+
+}
+.text{
+    margin-left: 60%;
+    border: brown;
+    
+}
+.c1{
+    color: darkslategray;
+}
+.big{
+    color: green;
+    
+}
+.world{
+    color: chocolate;
+}
+.big:hover{
+    color: blueviolet;
+}
+.world:hover{
+    color: rgb(63, 210, 30);
+}
+.c1:hover{
+    color: green;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left 14%;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient( rgb(9, 103, 51), tomato ) ;
+    border-image-slice: 1;
+}
+#Little{
+    border-left: 7px solid;
+    border-image:linear-gradient( 180deg, rgb(17, 206, 102), rgb(80, 71, 255) );
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
